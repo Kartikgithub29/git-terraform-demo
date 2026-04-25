@@ -6,5 +6,5 @@ variable "ami" {
 variable "instance_type" {
     description = "this is type for instance"
     type = string
-  
+   instance_type = "t2.micro"
 }
